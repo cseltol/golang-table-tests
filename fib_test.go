@@ -3,7 +3,7 @@ package fib_test
 import (
 	"testing"
 
-	//"fib"
+	"fib"
 
 	"github.com/stretchr/testify/assert"
 )
