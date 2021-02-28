@@ -8,6 +8,7 @@ func init() {
 	cache = make(map[int]int)
 }
 
+// Fib expotrs to test/fib_test.go
 func Fib(num int) int {
 	if num <= 1 {
 		return num
