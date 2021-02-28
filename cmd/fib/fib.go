@@ -8,7 +8,7 @@ func init() {
 	cache = make(map[int]int)
 }
 
-// Fib expotrs to test/fib_test.go
+// Fib returns a fibonacci number converted from an int argument
 func Fib(num int) int {
 	if num <= 1 {
 		return num
